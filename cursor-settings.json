@@ -154,50 +154,6 @@
         }
       ]
     },
-    "[JetBrains New UI Dark Theme]": {
-      "textMateRules": [
-        {
-          "scope": "entity.other.attribute-name",
-          "settings": {
-            "foreground": "#CE8C6A"
-          }
-        },
-        {
-          "scope": "variable.parameter",
-          "settings": {
-            "foreground": "#62A3FE"
-          }
-        },
-        {
-          "scope": "punctuation.definition.tag.begin, punctuation.definition.tag.end",
-          "settings": {
-            "foreground": "#ABB2BF"
-          }
-        }
-      ]
-    },
-    "[Moon]": {
-      "textMateRules": [
-        {
-          "scope": "meta.jsx.children.tsx",
-          "settings": {
-            "foreground": "#d8d8d8"
-          }
-        },
-        {
-          "scope": "entity.name.tag.tsx",
-          "settings": {
-            "foreground": "#FF6867"
-          }
-        },
-        {
-          "scope": "support.class.component.tsx",
-          "settings": {
-            "foreground": "#FFD283"
-          }
-        }
-      ]
-    },
     "[Vesper]": {
       "textMateRules": [
         {
@@ -659,26 +615,6 @@
         }
       ]
     },
-    "[Colorful Code (No Italic)]": {
-      "textMateRules": [
-        {
-          "scope": "entity.name.tag.tsx",
-          "settings": {
-            "foreground": "#F471B5"
-          }
-        }
-      ]
-    },
-    "[Halcyon]": {
-      "textMateRules": [
-        {
-          "scope": "support.class.component.tsx",
-          "settings": {
-            "foreground": "#999eff"
-          }
-        }
-      ]
-    },
     "[poimandres-noitalics]": {
       "textMateRules": [
         {
@@ -707,56 +643,6 @@
         }
       ]
     },
-    "[Vercel 2024 Dark]": {
-      "textMateRules": [
-        {
-          "scope": "string, punctuation.definition.string.begin, punctuation.definition.string.end, string.quoted.double, string.quoted.single",
-          "settings": {
-            "foreground": "#00CA51"
-          }
-        }
-      ]
-    },
-    "[Monospace Dark]": {
-      "textMateRules": [
-        {
-          "scope": "string.quoted.double, string.quoted.single, punctuation.definition.string.begin.json.comments, punctuation.definition.string.end.json.comments, punctuation.definition.string.begin, punctuation.definition.string.end, string.template, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
-          "settings": {
-            "foreground": "#D6E1FF"
-          }
-        },
-        {
-          "scope": "meta.import",
-          "settings": {
-            "foreground": "#BCA5FF"
-          }
-        },
-        {
-          "scope": "entity.other.attribute-name",
-          "settings": {
-            "foreground": "#FF89A6"
-          }
-        },
-        {
-          "scope": "entity.name.tag",
-          "settings": {
-            "foreground": "#92A9FF"
-          }
-        },
-        {
-          "scope": "keyword.operator.assignment",
-          "settings": {
-            "foreground": "#ecf0ff"
-          }
-        },
-        {
-          "scope": "support.class.component",
-          "settings": {
-            "foreground": "#FAB387"
-          }
-        }
-      ]
-    }
   },
   "window.titleBarStyle": "custom",
   "window.zoomLevel": -1,

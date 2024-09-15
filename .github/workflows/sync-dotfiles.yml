@@ -17,7 +17,12 @@ jobs:
           git config --global user.name 'Rafli Dewanto'
           git config --global user.email 'dewantorafli@gmail.com'
 
-      - name: Check for changes
+      - name: Check for changes and push if needed
         run: |
           git add .
-          git diff --staged --quiet || (git commit -m "Auto-sync dotfiles" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-sync dotfiles"
+            git push
+          else
+            echo "No changes to commit."
+          fi

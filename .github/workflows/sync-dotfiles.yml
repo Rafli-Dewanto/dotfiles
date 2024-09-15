@@ -1,0 +1,23 @@
+name: Sync Dotfiles
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * *" # Runs at 00:00 UTC every day
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'Rafli Dewanto'
+          git config --global user.email 'dewantorafli@gmail.com'
+
+      - name: Check for changes
+        run: |
+          git add .
+          git diff --staged --quiet || (git commit -m "Auto-sync dotfiles" && git push)

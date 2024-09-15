@@ -650,28 +650,6 @@
   "workbench.iconTheme": "symbols",
   "workbench.tree.enableStickyScroll": true,
   "workbench.colorCustomizations": {
-    "[Tailwind Moon Blue]": {
-      "titleBar.activeBackground": "#101928",
-      "editor.background": "#101928",
-      "sideBar.background": "#101928",
-      "editorGroup.border": "#101928",
-      "editorGroupHeader.tabsBackground": "#101928",
-      "editorGroupHeader.noTabsBackground": "#101928",
-      "editorGroupHeader.border": "#101928",
-      "tab.inactiveBackground": "#101928",
-      "editorGutter.background": "#101928",
-      "breadcrumb.background": "#101928",
-      "tab.activeBackground": "#101928",
-      "activityBar.background": "#101928",
-      "terminal.background": "#101928",
-      "panel.background": "#101928",
-      "quickInput.background": "#101928",
-      "editorInlayHint.background": "#101928",
-      "editorHoverWidget.background": "#101928",
-      "sideBar.foreground": "#ABB2BF",
-      "titleBar.inactiveBackground": "#101928",
-      "tab.activeBorder": "#F471B5"
-    },
     "[Blankeos Zen]": {
       "editor.background": "#12131B",
       "titleBar.activeBackground": "#12131B",
@@ -699,10 +677,6 @@
       "titleBar.activeBackground": "#181818",
       "titleBar.inactiveBackground": "#181818",
       "editor.background": "#181818"
-    },
-    "[Vercel 2024 Dark]": {
-      "titleBar.activeBackground": "#000",
-      "titleBar.inactiveBackground": "#000"
     },
     "[Vesper]": {
       "titleBar.activeBackground": "#101010",
@@ -750,16 +724,6 @@
       "tab.activeBackground": "#181A1F",
       "sideBarSectionHeader.background": "#181A1F"
     },
-    "[Vesper Purple Dark]": {
-      "titleBar.activeBackground": "#121212",
-      "titleBar.inactiveBackground": "#121212",
-      "breadcrumb.background": "#121212",
-      "panelStickyScroll.background": "#121212",
-      "editorStickyScroll.background": "#121212"
-    },
-    "[Min Dark]": {
-      "editor.background": "#161616"
-    },
     "[poimandres]": {
       "editor.background": "#181A1F",
       "titleBar.activeBackground": "#181A1F",
@@ -781,35 +745,6 @@
       "sideBar.foreground": "#ABB2BF",
       "titleBar.inactiveBackground": "#181A1F",
       "tab.activeBorder": "#5DE4C7"
-    },
-    "[Remix Run Dark]": {
-      "titleBar.activeBackground": "#18191B",
-      "titleBar.inactiveBackground": "#18191B",
-      "input.background": "#18191B",
-      "editor.background": "#18191B",
-      "sideBarSectionHeader.background": "#18191B",
-      "sideBar.background": "#18191B",
-      "commandCenter.background": "#18191B",
-      "editorGroup.border": "#18191B",
-      "editorGroupHeader.tabsBackground": "#18191B",
-      "editorGroupHeader.noTabsBackground": "#18191B",
-      "editorGroupHeader.border": "#18191B",
-      "tab.inactiveBackground": "#18191B",
-      "editorGutter.background": "#18191B",
-      "breadcrumb.background": "#18191B",
-      "tab.activeBackground": "#18191B",
-      "activityBar.background": "#18191B",
-      "terminal.background": "#18191B",
-      "panel.background": "#18191B",
-      "quickInput.background": "#18191B",
-      "editorInlayHint.background": "#18191B",
-      "editorHoverWidget.background": "#18191B",
-      "list.hoverBackground": "#141414",
-      "list.activeSelectionBackground": "#242424",
-      "list.dropBackground": "#242424",
-      "list.focusBackground": "#242424",
-      "list.inactiveFocusBackground": "#242424",
-      "list.inactiveSelectionBackground": "#242424"
     },
     "[Rapture]": {
       "titleBar.activeBackground": "#0D1721",

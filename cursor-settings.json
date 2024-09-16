@@ -35,7 +35,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
-  "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "on",
   "editor.accessibilitySupport": "off",
   "editor.minimap.renderCharacters": false,
@@ -160,87 +159,6 @@
           "scope": "entity.name.import.go",
           "settings": {
             "foreground": "#99FFE4"
-          }
-        }
-      ]
-    },
-    "[Haki Neosolarized V3]": {
-      "textMateRules": [
-        {
-          "scope": "support.class.component",
-          "settings": {
-            "foreground": "#B68400"
-          }
-        },
-        {
-          "scope": [
-            "keyword.control.import.tsx",
-            "keyword.control.from.tsx",
-            "meta.import.tsx",
-            "source.tsx"
-          ],
-          "settings": {
-            "foreground": "#EF031D"
-          }
-        },
-        {
-          "scope": "keyword.control.export",
-          "settings": {
-            "foreground": "#f20c27"
-          }
-        },
-        {
-          "scope": "entity.name.type",
-          "settings": {
-            "foreground": "#B68400"
-          }
-        },
-        {
-          "scope": "variable.other.object.tsx",
-          "settings": {
-            "foreground": "#B68400"
-          }
-        },
-        {
-          "scope": "punctuation.terminator.statement.tsx",
-          "settings": {
-            "foreground": "#B68400"
-          }
-        },
-        {
-          "scope": "punctuation.separator.comma.tsx",
-          "settings": {
-            "foreground": "#B68400"
-          }
-        },
-        {
-          "scope": "variable.other.readwrite.tsx",
-          "settings": {
-            "foreground": "#CB4B17"
-          }
-        },
-        {
-          "scope": "variable.other.constant.tsx",
-          "settings": {
-            "foreground": "#B68400"
-          }
-        },
-        {
-          "scope": "variable.other.readwrite.alias",
-          "settings": {
-            "foreground": "#B38403"
-          }
-        },
-        {
-          "scope": "variable.parameter.tsx",
-          "settings": {
-            "foreground": "#CB4B17"
-          }
-        },
-        {
-          "scope": "meta.jsx.children",
-          "settings": {
-            "foreground": "#9d9d9d"
           }
         }
       ]
@@ -642,7 +560,7 @@
           }
         }
       ]
-    },
+    }
   },
   "window.titleBarStyle": "custom",
   "window.zoomLevel": -1,
@@ -1112,5 +1030,5 @@
   "workbench.activityBar.location": "hidden",
   "update.mode": "manual",
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Vesper"
+  "workbench.colorTheme": "Haki Neosolarized V3"
 }

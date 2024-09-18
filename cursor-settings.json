@@ -568,6 +568,28 @@
   "workbench.iconTheme": "symbols",
   "workbench.tree.enableStickyScroll": true,
   "workbench.colorCustomizations": {
+    "[Tailwind Moon Blue]": {
+      "titleBar.activeBackground": "#101928",
+      "editor.background": "#101928",
+      "sideBar.background": "#101928",
+      "editorGroup.border": "#101928",
+      "editorGroupHeader.tabsBackground": "#101928",
+      "editorGroupHeader.noTabsBackground": "#101928",
+      "editorGroupHeader.border": "#101928",
+      "tab.inactiveBackground": "#101928",
+      "editorGutter.background": "#101928",
+      "breadcrumb.background": "#101928",
+      "tab.activeBackground": "#101928",
+      "activityBar.background": "#101928",
+      "terminal.background": "#101928",
+      "panel.background": "#101928",
+      "quickInput.background": "#101928",
+      "editorInlayHint.background": "#101928",
+      "editorHoverWidget.background": "#101928",
+      "sideBar.foreground": "#ABB2BF",
+      "titleBar.inactiveBackground": "#101928",
+      "tab.activeBorder": "#F471B5"
+    },
     "[Blankeos Zen]": {
       "editor.background": "#12131B",
       "titleBar.activeBackground": "#12131B",
@@ -1030,5 +1052,5 @@
   "workbench.activityBar.location": "hidden",
   "update.mode": "manual",
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Haki Neosolarized V3"
+  "workbench.colorTheme": "Tailwind Moon Blue"
 }
